@@ -1,0 +1,113 @@
+/* Base Styles */
+* {
+    color: #4D4D4D;
+    margin-inline: auto;
+}
+.card {
+    /* width: 30rem; */
+}
+.company-icons {
+    gap: 5rem;
+}
+.text-color {
+    color: #717171;
+}
+.email {
+    margin-top: -1rem;
+}
+.hard-work-container,
+.pods-section {
+    background-color: #F5F7FA;
+}
+.btn {
+    background-color: #4CAF4F;
+}
+footer {
+    background-color: #263238;
+}
+
+/* --------------MOBILE---------- */
+@media screen and (max-width: 540px) {
+    .profession {
+        font-size: 3rem;
+    }
+    .demo-info {
+        font-size: 2rem;
+    }
+    .navbar-brand {
+        margin-left: -0.7rem;
+    }
+    .read-more {
+        width: 20rem;
+        bottom: 1rem;
+        left: 4.1rem;
+    }
+}
+
+@media screen and (min-width: 541px) and (max-width: 767px) {
+    .profession {
+        font-size: 3rem;
+    }
+    .demo-info {
+        font-size: 2.5rem;
+    }
+    .navbar-brand {
+        margin-left: 0;
+    }
+    .profession-img {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .company-icons {
+        gap: 4rem;
+        margin-left: 2rem;
+    }
+    .profession {
+        font-size: 3rem;
+    }
+    .demo-info {
+        font-size: 3rem;
+    }
+    .navbar-brand {
+        margin-left: 7px;
+    }
+    header {
+        margin-left: -5rem;
+    }
+    .read-more {
+        width: 20rem;
+        bottom: 1rem;
+        left: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container-fluid {
+        margin-left: 8rem;
+    }
+    .company-icons {
+        margin-left: 3rem;
+    }
+    .profession {
+        font-size: 3.5rem;
+    }
+    .read-more {
+        width: 20rem;
+        bottom: 1rem;
+        left: 3rem;
+    }
+    .demo-info {
+        font-size: 4rem;
+    }
+    .navbar-brand {
+        margin-left: -4rem;
+    }
+    .navbar-nav {
+        margin-right: -0.5rem;
+    }
+    header {
+        margin-left: 0;
+    }
+}
